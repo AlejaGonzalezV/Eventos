@@ -1,0 +1,75 @@
+﻿@model WebApplication1.Models.Cliente
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Cliente</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nombre)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.nombre)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.correo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.correo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.telefono)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.telefono)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.necesidad)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.necesidad)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.tipoDeEvento)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.tipoDeEvento)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ubicacion)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ubicacion)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.fecha)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.fecha)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.invitados)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.invitados)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.detalles)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.detalles)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

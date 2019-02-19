@@ -1,0 +1,72 @@
+﻿@model WebApplication1.Models.Cliente
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Cliente</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nombre)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.nombre)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.correo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.correo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.telefono)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.telefono)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.necesidad)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.necesidad)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.tipoDeEvento)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.tipoDeEvento)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ubicacion)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ubicacion)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.fecha)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.fecha)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.invitados)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.invitados)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.detalles)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.detalles)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
