@@ -36,3 +36,4 @@ C:\Users\aleja\Documents\Universidad\Semestre5\Integrador\Proyecto3\WebApplicati
 C:\Users\aleja\Documents\Universidad\Semestre5\Integrador\Proyecto3\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\Details.g.cshtml.cs
 C:\Users\aleja\Documents\Universidad\Semestre5\Integrador\Proyecto3\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\Edit.g.cshtml.cs
 C:\Users\aleja\Documents\Universidad\Semestre5\Integrador\Proyecto3\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\Index.g.cshtml.cs
+C:\Users\aleja\Documents\Universidad\Semestre5\Integrador\Proyecto3\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.1\Razor\Views\Principal\Datos.g.cshtml.cs

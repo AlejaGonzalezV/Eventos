@@ -11,28 +11,31 @@ namespace WebApplication1.Models
 
         public int Id { get; set; }
 
-        [RegularExpression(@"^[A-Z]+[a-zA-Z""'\s-]*$")]
+        
         [Required]
         public string nombre { get; set; }
 
+        [DataType(DataType.EmailAddress)]
         [Required]
         public string correo { get; set; }
 
+        [DataType(DataType.PhoneNumber)]
+        [Required]
         public string telefono { get; set; }
 
-        [RegularExpression(@"^[A-Z]+[a-zA-Z""'\s-]*$")]
+        
         [Required]
         public string necesidad { get; set; }
 
-        [RegularExpression(@"^[A-Z]+[a-zA-Z""'\s-]*$")]
+        
         [Required]
         public string tipoDeEvento { get; set; }
 
-        [RegularExpression(@"^[A-Z]+[a-zA-Z""'\s-]*$")]
+        
         [Required]
         public string ubicacion { get; set; }
 
-        [DataType(DataType.Date)]
+        [Display(Name = "Release Date"), DataType(DataType.Date)]
         [Required]
         public string fecha { get; set; }
         public int invitados { get; set; }
